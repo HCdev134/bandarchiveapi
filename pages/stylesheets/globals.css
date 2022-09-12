@@ -1,0 +1,15 @@
+:root{
+    --themeLightGray: #EEEEEE;
+    --themeWhite: #FFF;
+}
+html,body {
+  background-color: var(--themeLightGray)
+}
+
+.container {
+  background-color: var(--themeWhite);
+}
+button[data-pagebtn="button2"] {
+  background-color: #000;
+  color:#fff !important
+}
